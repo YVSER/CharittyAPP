@@ -17,6 +17,11 @@ public class OrganisationServiceImpl implements OrganisationService{
     }
 
     @Override
+    public Organisation findOrganisationById(Long id) {
+        return organisationRepo.findById(id).get();
+    }
+
+    @Override
     public Organisation createOrganisation(Organisation organisation) {
         return organisationRepo.save(organisation);
     }

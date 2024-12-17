@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -13,13 +12,12 @@
         <option value="$PROJECT_DIR$/discovery_ms/pom.xml" />
         <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
         <option value="$PROJECT_DIR$/donation_ms/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery_ms/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/discovery-service/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery_ms/pom.xml" />
       </set>
     </option>
   </component>

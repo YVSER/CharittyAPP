@@ -18,6 +18,9 @@ public class OrganisationController {
     public Organisation createUser(@RequestBody Organisation organisation) {
         return organisationService.createOrganisation(organisation);
     }
+    @RequestMapping("/getOrganisationById/{id}")
+    public Organisation getOrganisationById(@PathVariable Long id){
+        return organisationService.findOrganisationById(id);}
     @PutMapping("/updateOrganisation")
     public Organisation updateUser(@RequestBody Organisation organisation) {
         return organisationService.updateOrganisation(organisation);
